@@ -1,4 +1,4 @@
-$color-1: #7b7b02;
+$color-1: #607d8b;
 $font-1: 'Prompt', sans-serif;
 $font-2: 'Caveat', cursive;
 body{
@@ -28,10 +28,6 @@ p{
 }
 .uppercase{
 	text-transform: uppercase;
-}
-.services i{
-	font-size: 30px;
-	color: #0e283e;
 }
 .services, .portfolio{
 	padding-top: 96px;
@@ -91,9 +87,13 @@ p{
 	justify-content: space-around;
 	padding-top: 48px;
 }
+.services i{
+	font-size: 30px;
+	color: #0e3d62;
+}
 /*Galery*/
 .portfolio{
-	background: #FFFFCC;
+	background: #ccd6ed;
 }
 .portfolio h2{
 	margin-bottom: 0;
@@ -134,7 +134,7 @@ p{
 footer{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background: #0e283e;
+	background: #0e3d62;
 }
 footer .row{
 	text-align: left;
@@ -151,4 +151,15 @@ footer li{
 }
 footer i{
 	font-size: 20px;
+}
+/*Media*/
+@media (max-width: 767px){
+	.main-title h1{
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px grey;
+}
+.main-title h2{
+	font-size: 25px;
+}
 }
