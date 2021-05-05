@@ -1,7 +1,24 @@
-$color-1: #b1b129;
+$color-1: #7b7b02;
+$font-1: 'Prompt', sans-serif;
+$font-2: 'Caveat', cursive;
 body{
 	margin: 0;
 	text-align: center;
+	font-family: $font-1;
+	font-size: 14px;
+}
+a{
+	color: white;
+}
+p{
+	color: grey;
+}
+.section-title{
+	font-size: 30px;
+}
+.section-subtitle{
+	font-size: 16px;
+	font-style: italic;
 }
 .navigation a, footer a{
 	text-decoration: none;
@@ -23,6 +40,7 @@ body{
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
+	color: white;
 }
 .navigation ul{
 	list-style-type: none;
@@ -30,20 +48,34 @@ body{
 .navigation li{
 	display: inline-block;
 }
+.studio-name{
+	font-family: 'Sonsie One', cursive;
+	color: $color-1;
+}
 .navigation .main-title{
 	position: absolute;
 	left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.main-title h1{
+	font-size: 55px;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px grey;
+}
+.main-title h2{
+	font-family: $font-2;
+	font-size: 48px;
+}
 .btn{
 	display: inline-block;
 	text-decoration: none;
 	min-width: 160px;
-	padding: 16px;
+	padding: 16px 25px;
 	border: 1px solid $color-1;
-	color: white;
 	background: $color-1;
+	font-weight: 600;
+	letter-spacing: 2px;
 }
 /*Services*/
 .services .row{
@@ -85,9 +117,6 @@ footer li{
 	line-height: 45px;
 	text-align: center;
 	border-radius: 50%;
-}
-footer a{
-	color: white;
 }
 footer i{
 	font-size: 20px;
