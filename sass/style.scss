@@ -1,0 +1,94 @@
+$color-1: #b1b129;
+body{
+	margin: 0;
+	text-align: center;
+}
+.navigation a, footer a{
+	text-decoration: none;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.services i{
+	font-size: 30px;
+}
+/*Navigation*/
+.navigation .row{
+	justify-content: space-between;
+}
+.navigation{
+	position: relative;
+	background-image: url("../../images/main.jpg");
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.navigation ul{
+	list-style-type: none;
+}
+.navigation li{
+	display: inline-block;
+}
+.navigation .main-title{
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+	display: inline-block;
+	text-decoration: none;
+	min-width: 160px;
+	padding: 16px;
+	border: 1px solid $color-1;
+	color: white;
+	background: $color-1;
+}
+/*Services*/
+.services .row{
+	justify-content: space-around;
+}
+/*Galery*/
+.img{
+	height: 380px;
+	background-position: center;
+	background-size: cover;
+}
+.img-1{
+	background-image: url("../../images/01.jpg");
+}
+.img-2{
+	background-image: url("../../images/02.jpeg");
+}
+.img-3{
+	background-image: url("../../images/03.jpeg");
+}
+.img-4{
+	background-image: url("../../images/04.jpg");
+}
+.img-5{
+	background-image: url("../../images/06.jpg");
+}
+.img-6{
+	background-image: url("../../images/07.jpg");
+}
+/*Footer*/
+footer .row{
+	text-align: left;
+}
+footer li{
+	display: inline-block;	
+	background-color: grey;
+	width: 40px;
+	height: 40px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 50%;
+}
+footer a{
+	color: white;
+}
+footer i{
+	font-size: 20px;
+}
